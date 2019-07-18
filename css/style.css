@@ -29,6 +29,9 @@
 0.0 *** Common CSS START ***
 =============================*/
 
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -249,7 +252,7 @@ a:focus {
     }
 }
 
-@font-face {
+/* @font-face {
     src: url("../fonts/OpenSans-ExtraBold.ttf");
     font-family: osb;
 }
@@ -262,7 +265,7 @@ a:focus {
 @font-face {
     src: url("../fonts/Roboto-Bold.ttf");
     font-family: rb;
-}
+} */
 
 /* version 2 */
 #index2 #banner::after {
@@ -345,8 +348,9 @@ a:focus {
 
 .navbar-light .navbar-nav .nav-link {
     color: #fff;
-    font-family: rr;
-    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
     -webkit-transition: all linear .3s;
     -o-transition: all linear .3s;
     transition: all linear .3s;
@@ -496,7 +500,7 @@ a:focus {
 
 .banner-text h2 {
     color: #3bbfbb;
-    font-family: osb;
+    font-family: 'Poppins', sans-serif;
     font-size: 55px;
 }
 
@@ -509,7 +513,8 @@ a:focus {
 .banner-text p {
     color: #fff;
     font-size: 15px;
-    font-family: rr;
+    font-family: 'Poppins', sans-serif;
+    ;
     line-height: 25px;
     padding-bottom: 16px;
     padding-top: 10px;
@@ -541,6 +546,7 @@ a:focus {
 .banner-text {
     position: relative;
     padding-top: 65px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .banner-text::after {
@@ -553,6 +559,7 @@ a:focus {
     right: 1px;
     -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -603,7 +610,7 @@ a:focus {
 }
 
 .overview-p {
-    padding-top: 90px;
+    padding-top: 30px;
 }
 
 .mov-arrow {
@@ -638,7 +645,7 @@ a:focus {
 }
 
 .overview-head h2 {
-    font-family: osb;
+    font-family: 'Poppins', sans-serif;
     color: #151515;
     position: relative;
     display: inline-block;
@@ -677,7 +684,7 @@ a:focus {
 
 .over-text h3 {
     font-size: 25px;
-    font-family: rb;
+    font-family: 'Poppins', sans-serif;
     position: relative;
     padding-bottom: 10px;
 }
@@ -701,12 +708,12 @@ a:focus {
     font-size: 16px;
     line-height: 25px;
     color: #666;
-    font-family: rr;
+    font-family: 'Poppins', sans-serif;
     padding-right: 10px;
 }
 
 .over-text a {
-    font-family: rb;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     color: #fa573a;
 }
@@ -770,7 +777,7 @@ a:focus {
 }
 
 .f-text h2 {
-    font-family: rb;
+    font-family: 'Poppins', sans-serif;
     color: #21252e;
     font-size: 28px;
     padding-top: 85px;
@@ -778,7 +785,7 @@ a:focus {
 }
 
 .f-text h3 {
-    font-family: rb;
+    font-family: 'Poppins', sans-serif;
     color: #3bbfbb;
     font-size: 23px;
     padding-bottom: 4px;
@@ -798,7 +805,7 @@ a:focus {
 
 .f-text p {
     font-size: 16px;
-    font-family: rb;
+    font-family: 'Poppins', sans-serif;
 }
 
 .f-img {
@@ -825,7 +832,7 @@ a:focus {
     padding-bottom: 20px;
     font-size: 16px;
     line-height: 25px;
-    font-family: rr !important;
+    font-family: 'Poppins', sans-serif !important;
     color: #666;
 }
 
@@ -876,7 +883,7 @@ a:focus {
     left: 50%;
     font-size: 20px;
     color: #fff;
-    font-family: rb;
+    font-family: 'Poppins', sans-serif;
 }
 
 .counter-1 h4 {
@@ -884,7 +891,8 @@ a:focus {
     margin-top: 10px;
     text-align: center;
     color: #fff;
-    font-family: rr;
+    font-family: 'Poppins', sans-serif;
+    ;
 }
 
 .count-i {
@@ -908,7 +916,7 @@ a:focus {
 .count-btn a {
     font-size: 17px;
     color: #fff;
-    font-family: rb;
+    font-family: 'Poppins', sans-serif;
 }
 
 .vbox-overlay {
@@ -923,8 +931,9 @@ a:focus {
 }
 
 .price-main {
-    background: #fa573a;
+    background: #3bbfbb;
     color: white;
+    box-shadow: 0 12px 6px -6px black;
 
 }
 
@@ -938,38 +947,41 @@ a:focus {
 
 .price-item p {
     font-size: 17px;
-    font-family: rr;
+    font-family: 'Poppins', sans-serif;
 }
 
 .price-item h3 {
-    font-family: rb;
+    font-family: 'Poppins', sans-serif;
     font-size: 27px;
+    font-weight: 200;
 }
 
-.price-item span {
-    color: #fa573a;
-    font-size: 22px;
-    font-family: rr;
+.price-item .person {
+    color: #3bbfbb;
+    font-size: 13px;
+    margin: 0;
 }
 
 .price-item a {
-    color: #fa573a;
-    padding: 14px 20px;
-    border: 1px solid #fa573a;
+    color: #3bbfbb;
+    padding: 10px 20px;
+    border: 1px solid #3bbfbb;
     border-radius: 50px;
-    font-family: rb;
+    font-size: 13px;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
     -webkit-transition: all linear .3s;
     -o-transition: all linear .3s;
     transition: all linear .3s;
 }
 
 .ex-btn {
-    background: #fa573a;
+    background: #3bbfbb;
     color: #fff !important;
 }
 
 .price-item a:hover {
-    background: #fa573a;
+    background: #3bbfbb;
     color: white;
 }
 
@@ -996,14 +1008,14 @@ a:focus {
 }
 
 .pro-text h2 {
-    font-family: rb;
+    font-family: 'Poppins', sans-serif;
     color: #fff;
     font-size: 26px;
     padding-top: 108px;
 }
 
 .pro-text h3 {
-    font-family: rb;
+    font-family: 'Poppins', sans-serif;
     color: #fa573a;
     font-size: 24px;
     padding-top: 4px;
@@ -1011,7 +1023,7 @@ a:focus {
 
 .mb-0 .btn-link {
     font-size: 16px;
-    font-family: rb;
+    font-family: 'Poppins', sans-serif;
     color: #f76046;
     padding-left: 5px;
 }
@@ -1052,7 +1064,7 @@ a:focus {
 
 .faq-bottom-btn a {
     font-size: 16px;
-    font-family: rb;
+    font-family: 'Poppins', sans-serif;
     border: 1px solid #3bbfbb;
     padding: 15px 20px;
     color: #fff;
@@ -1101,14 +1113,14 @@ a:focus {
     line-height: 27px;
     padding-bottom: 30px;
     font-size: 16px;
-    font-family: rr;
+    font-family: 'Poppins', sans-serif;
 }
 
 .download-details a {
     font-size: 16px;
     color: #fff;
     background: #fa573a;
-    font-family: rb;
+    font-family: 'Poppins', sans-serif;
     border: 1px solid #fa573a;
     padding: 14px 20px;
     border-radius: 50px;
@@ -1152,7 +1164,7 @@ a:focus {
     color: #ff7657;
     padding-top: 24px;
     padding-bottom: 13px;
-    font-family: rb;
+    font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     font-size: 23px;
 
@@ -1224,13 +1236,13 @@ a:focus {
 }
 
 .download-head h2 {
-    font-family: rb;
+    font-family: 'Poppins', sans-serif;
     color: #21252e;
     font-size: 27px;
 }
 
 .download-head h3 {
-    font-family: rb;
+    font-family: 'Poppins', sans-serif;
     color: #fa573a;
     font-size: 21px;
 }
@@ -1241,7 +1253,7 @@ a:focus {
     color: #ff7657;
     border-radius: 50px;
     font-size: 16px;
-    font-family: rb;
+    font-family: 'Poppins', sans-serif;
     -webkit-transition: all linear .3s;
     -o-transition: all linear .3s;
     transition: all linear .3s;
@@ -1317,24 +1329,24 @@ a:focus {
 
 .blog-text a {
     color: #fa573a;
-    font-family: rb;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
 }
 
 .extra1 {
     color: #fa573a;
-    font-family: rb;
+    font-family: 'Poppins', sans-serif;
 }
 
 .blog-text-main a {
     color: #fa573a;
-    font-family: rb;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
 }
 
 .blog-text-main h3 {
     font-size: 22px;
-    font-family: rr;
+    font-family: 'Poppins', sans-serif;
     color: #21252e;
     text-transform: uppercase;
     padding-top: 8px;
@@ -1342,7 +1354,7 @@ a:focus {
 
 .blog-text h3 {
     font-size: 20px;
-    font-family: rr;
+    font-family: 'Poppins', sans-serif;
     color: #21252e;
     padding-top: 14px;
     text-transform: uppercase;
@@ -1436,9 +1448,10 @@ a:focus {
 
 .mix p {
     font-size: 16px;
-    font-family: rb;
+    font-family: 'Poppins', sans-serif;
     color: #3bbfbb;
     padding-bottom: 11px;
+    font-weight: 200;
 }
 
 .mix p i {
@@ -1453,7 +1466,7 @@ a:focus {
     -webkit-transition: all linear .3s;
     -o-transition: all linear .3s;
     transition: all linear .3s;
-    font-family: rr;
+    font-family: 'Poppins', sans-serif;
     border: 0;
     border-bottom: 2px solid white;
     margin-bottom: 40px;
@@ -1503,6 +1516,7 @@ a:focus {
 
 .input-btn-pa .faq-bottom-btn a {
     padding: 14px 70px;
+    font-weight: 200;
 }
 
 .input-btn-pa .faq-bottom-btn a i {
@@ -1541,7 +1555,7 @@ a:focus {
     width: 100%;
 }
 
-.kc-horizon + div {
+.kc-horizon+div {
     display: none !important;
 }
 
@@ -1570,17 +1584,17 @@ a:focus {
     font-size: 16px;
     padding: 20px 168px 0;
     line-height: 26px;
-    font-family: rr;
+    font-family: 'Poppins', sans-serif;
     color: #666;
 }
 
 .testimonial-item h3 {
-    font-family: rb;
+    font-family: 'Poppins', sans-serif;
     font-size: 26px;
 }
 
 .testimonial-item span {
-    font-family: rr;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     color: #fa573a;
 }
@@ -1632,7 +1646,7 @@ a:focus {
 .nb-2 {
     font-size: 27px;
     color: #fff;
-    font-family: rb;
+    font-family: 'Poppins', sans-serif;
     -webkit-transition: all linear .3s;
     -o-transition: all linear .3s;
     transition: all linear .3s;
@@ -1648,6 +1662,7 @@ a:focus {
     height: 40px;
     color: #fff;
     border: 2px solid #3bbfbb;
+    font-weight: 200;
 }
 
 .fg2 input:focus {
@@ -1671,12 +1686,13 @@ a:focus {
     border: none;
     background: #3bbfbb;
     color: #fff;
-    font-family: rb;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
 }
 
 .fg2 button:hover {
     border: none;
-    background: #fa573a;
+    background: #3bbfbb;
 }
 
 .fg2 button:hover i {
@@ -1684,7 +1700,7 @@ a:focus {
 }
 
 .footer-text h3 {
-    font-family: rb;
+    font-family: 'Poppins', sans-serif;
     color: #fff;
     font-size: 23px;
     position: relative;
@@ -1704,12 +1720,12 @@ a:focus {
 .footer-text p {
     font-size: 15px;
     color: #fff;
-    font-family: rr;
+    font-family: 'Poppins', sans-serif;
     line-height: 24px;
 }
 
 .footer-text a {
-    font-family: rr;
+    font-family: 'Poppins', sans-serif;
     color: #fff;
     font-size: 15px;
     display: block;
@@ -1736,10 +1752,45 @@ a:focus {
     font-size: 16px;
     padding: 13px 0 1px;
     color: #fff;
-    font-family: rr;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
 }
 
 .copyright-text a {
     color: #fff;
-    font-family: rb;
+    font-family: 'Poppins', sans-serif;
+}
+
+.buy-btn {
+    border: 1px solid #3bbfbb;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background: #3bbfbb;
+    border-radius: 25px;
+}
+
+.person {
+    font-weight: 300;
+    text-align: center;
+}
+
+.kids-dropdown {
+    background: rgba(255, 255, 255, 0.301);
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.service-content {
+    text-align: center;
+    margin-top: 100px;
+    /* font-weight: 200; */
+    font-size: 13px;
+}
+
+.btn-app {
+    font-family: 'Poppins', sans-serif;
 }
