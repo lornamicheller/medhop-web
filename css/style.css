@@ -952,7 +952,7 @@ a:focus {
 
 .price-item h3 {
     font-family: 'Poppins', sans-serif;
-    font-size: 27px;
+    font-size: 19px;
     font-weight: 200;
 }
 
@@ -976,8 +976,8 @@ a:focus {
 }
 
 .ex-btn {
-    background: #3bbfbb;
-    color: #fff !important;
+    /* background: #3bbfbb; */
+    /* color: rgb(241, 234, 234) !important; */
 }
 
 .price-item a:hover {
