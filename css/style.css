@@ -536,6 +536,7 @@ a:focus {
     -webkit-transition: all linear .3s;
     -o-transition: all linear .3s;
     transition: all linear .3s;
+    font-size: 12px;
 }
 
 .banner-img {
