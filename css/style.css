@@ -1782,7 +1782,6 @@ a:focus {
     background: rgba(255, 255, 255, 0.301);
     color: white;
     margin-top: 10px;
-    margin-bottom: 50px;
 }
 
 .service-content {
@@ -1795,3 +1794,20 @@ a:focus {
 .btn-app {
     font-family: 'Poppins', sans-serif;
 }
+
+.age-area {
+    background: transparent;
+    border: 1px solid #3bbfbb;
+    font-family: 'Poppins', sans-serif;
+    resize: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 11px;
+    font-weight: 300;
+    height: 50px;
+    width: 200px;
+    margin-bottom: 30px;
+    padding-top: 2px;
+    color: white;
+}
+
